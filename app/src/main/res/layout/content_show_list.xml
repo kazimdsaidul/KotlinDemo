@@ -10,6 +10,7 @@
     tools:showIn="@layout/activity_show_list">
 
     <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="16dp"
