@@ -28,6 +28,10 @@ class Datum {
 
 
 
+    @Expose
+    var inputText: String? = null
+
+
 }
 
 class Data{

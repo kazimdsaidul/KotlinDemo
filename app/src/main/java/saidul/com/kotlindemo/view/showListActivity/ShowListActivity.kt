@@ -1,7 +1,6 @@
 package saidul.com.kotlindemo.view.showListActivity
 
 import android.os.Bundle
-import android.support.v7.app.AlertDialog
 import android.support.v7.widget.LinearLayoutManager
 import android.util.Log
 import com.androidnetworking.AndroidNetworking
@@ -29,16 +28,6 @@ class ShowListActivity : BaseAppCompatActivity() {
 
         getAPICall();
 
-    }
-
-    private fun setDialog(show: Boolean) {
-        val builder = AlertDialog.Builder(this)
-        builder.setView(R.layout.progress)
-        val dialog = builder.create()
-        if (show)
-            dialog.show()
-        else
-            dialog.dismiss()
     }
 
     private fun getAPICall() {
